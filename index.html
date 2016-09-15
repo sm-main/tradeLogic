@@ -2,9 +2,44 @@
 layout: default
 ---
 
-<div class="home">
+<div class="wrap">
+  <h1>some thing</h1>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<section class="slider-section">
+
+  <div class="home-slider">
+    <div class="home-slide-1">Slide 1</div>
+    <div class="home-slide-2">Slide 2</div>
+    <div class="home-slide-3">Slide 3</div>
+  </div>
+
+</section>
+
+<section class="services-section">
+  <div class="wrap">
+    <div class="all-services">
+      <img src="" alt="">
+      <p>Financial Planning</p>
+      <p></p>
+    </div>
+    <div class="all-services">
+      <img src="" alt="">
+      <p>Retirement Planning</p>
+      <p></p>
+    </div>
+    <div class="all-services">
+      <img src="" alt="">
+      <p>Risk Management</p>
+      <p></p>
+    </div>
+    <div class="all-services">
+      <img src="" alt="">
+      <p>Taxation</p>
+      <p></p>
+    </div>
+  </div>
+</section>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -19,5 +54,3 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>

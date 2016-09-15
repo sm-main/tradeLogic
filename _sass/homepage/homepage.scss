@@ -1,0 +1,26 @@
+.second-header
+{
+  background-color: $brand-color;
+}
+.site-nav-ul
+{
+  margin-bottom: 0px;
+  li
+  {
+    display: inline-block;
+    padding: 10px;
+    a
+    {
+      color: #fff;
+      text-decoration: none;
+      &:hover
+      {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.all-services
+{
+  display: inline-block;
+}
