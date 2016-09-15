@@ -22,5 +22,6 @@
 }
 .all-services
 {
+  @include span(4);
   display: inline-block;
 }
