@@ -47,12 +47,10 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "susy/sass/susy",
-        "general",
+        "bootstrap-sass/assets/stylesheets/bootstrap/variables",
+        "bootstrap-sass/assets/stylesheets/bootstrap",
         "normalize",
         "homepage/homepage",
+        "strategies/strategies",
         "slick/slick"
 ;
