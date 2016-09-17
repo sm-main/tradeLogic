@@ -120,5 +120,11 @@
         prevArrow: '<span class="arrow-span arrow-span-1"><img src="{{ site.baseurl }}/static/icons/back.png" alt="" /></span>',
         nextArrow: '<span class="arrow-span arrow-span-2"></arrow-span-2>"><img src="{{ site.baseurl }}/static/icons/next.png" alt="" /></span>'
       });
+      $('.dropdown').hover(function(){
+        $('.dropdown-toggle', this).trigger('click');
+      });
+      $('.dropdown').click(function(){
+        $('.dropdown-toggle', this).trigger('click');
+      });
     });
   </script>
