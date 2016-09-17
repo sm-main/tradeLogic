@@ -1,0 +1,54 @@
+.post-info
+{
+  figure
+  {
+    margin: 0px!important;
+  }
+}
+.post-info-body
+{
+  color: #000;
+  h3
+  {
+    font-size: 28px;
+    font-weight: 900;
+    text-shadow: .6px .6px;
+  }
+  p
+  {
+    line-height: 1.73333;
+    margin-top: 18px;
+  }
+}
+.mission-body
+{
+  h3
+  {
+    font-size: 28px;
+    font-weight: 900;
+    text-shadow: .6px .6px;
+  }
+}
+
+.about-page-nav
+{
+  .page-nav-list
+  {
+    list-style: none;
+    li
+    {
+      padding: 12px 6px 13px;
+      border-bottom: 1px solid #e8e8e8;
+      
+      a
+      {
+        color: #bab8b8;
+        &:hover
+        {
+          text-decoration: none;
+          color: #24a3d8;
+        }
+      }
+    }
+  }
+}
