@@ -45,8 +45,8 @@
         <div class="col-sm-3">
           <h4>Navigation</h4>
           <hr class="hr-variant-1">
-          <nav class="footer-nav-wrap text-xs-left">
-            <div class="footer-nav-column">
+          <nav class="footer-nav-wrap row">
+            <div class="footer-nav-column col-sm-6">
               <ul class="footer-nav">
                 <li><a href="about.html">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -54,7 +54,7 @@
                 <li><a href="typography.html">Typography</a></li>
               </ul>
             </div>
-            <div class="footer-nav-column">
+            <div class="footer-nav-column col-sm-6">
               <ul class="footer-nav">
                 <li class="active"><a href="services.html">Services</a></li>
                 <li><a href="careers.html">Careers</a></li>
@@ -117,8 +117,8 @@
     $(document).ready(function(){
       $('.home-slider').slick({
         autoplay: true,
-        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-        nextArrow: '<button type="button" class="slick-next">Next</button>'
+        prevArrow: '<span class="arrow-span arrow-span-1"><img src="{{ site.baseurl }}/static/icons/back.png" alt="" /></span>',
+        nextArrow: '<span class="arrow-span arrow-span-2"><img src="{{ site.baseurl }}/static/icons/next.png" alt="" /></span>'
       });
     });
   </script>

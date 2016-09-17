@@ -12,7 +12,6 @@
 {
   font-size: 16px;
   color: #fff;
-  letter-spacing: 1px;
 }
 .shell > .row > .col-sm-3
 {
@@ -20,10 +19,35 @@
   {
     color: #fff;
     font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: .5px .5px;
   }
 }
 .footer-nav,
 .contact-info-list
 {
   list-style: none;
+}
+.footer-nav
+{
+  li
+  {
+    margin-top: 12px;
+    a
+    {
+      color: #888c94;
+      font-size: 15px;
+
+      &:hover
+      {
+        text-decoration: none;
+        color: #229dd1;
+      }
+    }
+  }
+  li:first-child
+  {
+    margin-top: 0px;
+  }
 }
