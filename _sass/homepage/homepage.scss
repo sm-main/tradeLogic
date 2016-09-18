@@ -209,7 +209,45 @@ a
   bottom: 50%;
   right: 0px;
 }
+#accordion
+{
+  li
+  {
 
+    a
+    {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
+.panel-group
+{
+
+    border-bottom: 1px solid #f2f2f2;
+
+}
+.panel-body
+{
+  ul
+  {
+    padding-left: 0px;
+    li
+    {
+      text-align: center;
+    }
+  }
+}
+.panel-title
+{
+  text-align: center;
+  a
+  {
+    text-align: center;
+  }
+}
 @include media-query(768px)
 {
   .site-nav-two
