@@ -10,11 +10,19 @@ a
 {
   border-radius: 0px;
 }
-.dropdown:hover .dropdown-menu {
-    transition: .33s all ease-out;
-    display: block;
-    margin-top: 0; // remove the gap so it doesn't close
- }
+// .dropdown:hover .dropdown-menu {
+//     transition: .33s all ease-out;
+//     display: block;
+//     margin-top: 0; // remove the gap so it doesn't close
+//  }
+.dropdown-menu.animated {
+  /* Speed up animations */
+  -webkit-animation-duration: 0.55s;
+  animation-duration: 0.55s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
 .second-header
 {
   background-color: #323946;
