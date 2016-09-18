@@ -21,7 +21,7 @@
           <a href="">Careers</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="{{ site.baseurl }}/contactus">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -37,6 +37,66 @@
           <li><a href="{{ site.baseurl }}/">Home</a></li>
           <li class="dropdown">
             <!-- <li class="dropdown"> -->
+            <a href="{{ site.baseurl }}/aboutus">About Us<span class="caret"></span></a>
+            <a href="{{ site.baseurl }}/aboutus" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ site.baseurl }}/aboutus/career">Careers</a></li>
+              <li><a href="{{ site.baseurl }}/aboutus/team">Our Team</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <!-- <li class="dropdown"> -->
+            <a href="{{ site.baseurl }}/what-we-do">What We Do<span class="caret"></span></a>
+            <a href="{{ site.baseurl }}/what-we-do" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ site.baseurl }}/what-we-do/trading-systems">Trading Systems</a></li>
+              <li><a href="{{ site.baseurl }}/what-we-do/investment-advisory">Investment Advisory</a></li>
+              <li><a href="{{ site.baseurl }}/what-we-do/portfolio-management">Portfolio Management</a></li>
+            </ul>
+          </li>
+          <!-- <li><a href="">Research
+          </a></li> -->
+          <li class="dropdown">
+            <!-- <li class="dropdown"> -->
+            <a href="{{ site.baseurl }}/research">Research<span class="caret"></span></a>
+            <a href="{{ site.baseurl }}/research" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+            <ul class="dropdown-menu">
+
+              <li><a href="{{ site.baseurl }}/research/financial-markets">Financial Markets</a></li>
+              <li><a href="{{ site.baseurl }}/research/macro-economics">Macro Economics</a></li>
+              <li><a href="{{ site.baseurl }}/research/currencies">Currencies</a></li>
+              <li><a href="{{ site.baseurl }}/research/taxation">Taxation</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="{{ site.baseurl }}/strategies">Strategies</a></li>
+
+          <li class="dropdown">
+            <!-- <li class="dropdown"> -->
+            <a href="{{ site.baseurl }}/prespectives"> Prespectives<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+            <ul class="dropdown-menu">
+
+              <li><a href="#">Trading Blogs</a></li>
+              <li><a href="#">Investment Insights</a></li>
+
+            </ul>
+
+          </li>
+          <!-- <li><a href="">Prespectives</a></li> -->
+          <li><a href="">Team</a></li>
+        </ul>
+      </nav>
+
+      <!-- responsive header -->
+      <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-right offcanvas" role="navigation">
+
+			  <ul class="nav navmenu-nav">
+
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li class="dropdown">
+            <!-- <li class="dropdown"> -->
             <a href="{{ site.baseurl }}/aboutus">About Us</a>
             <a href="{{ site.baseurl }}/aboutus" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -44,8 +104,17 @@
               <li><a href="{{ site.baseurl }}/aboutus/team">Our Team</a></li>
             </ul>
           </li>
-          <!-- <li><a href="">Research
-          </a></li> -->
+          <li class="dropdown">
+            <!-- <li class="dropdown"> -->
+            <a href="{{ site.baseurl }}/what-we-do">What We Do</a>
+            <a href="{{ site.baseurl }}/what-we-do" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ site.baseurl }}/what-we-do/trading-systems">Trading Systems</a></li>
+              <li><a href="{{ site.baseurl }}/what-we-do/investment-advisory">Investment Advisory</a></li>
+              <li><a href="{{ site.baseurl }}/what-we-do/portfolio-management">Portfolio Management</a></li>
+            </ul>
+          </li>
+
           <li class="dropdown">
             <!-- <li class="dropdown"> -->
             <a href="{{ site.baseurl }}/research">Research</a>
@@ -73,10 +142,21 @@
             </ul>
 
           </li>
-          <!-- <li><a href="">Prespectives</a></li> -->
-          <li><a href="">Team</a></li>
-        </ul>
-      </nav>
+
+			  </ul>
+			</nav>
+
+      <div class="navbar-default some-header-fix">
+
+			  <button type="button" class="navbar-toggle" id="navbar-button-id" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			</div>
+
+
+
     </div>
   </div>
 

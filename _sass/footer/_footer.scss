@@ -28,11 +28,14 @@
 .contact-info-list
 {
   list-style: none;
+
 }
 .footer-nav
 {
+  padding-left: 0px;
   li
   {
+    text-align: left;
     margin-top: 12px;
     a
     {
@@ -51,3 +54,62 @@
     margin-top: 0px;
   }
 }
+.glyphicon
+{
+  color: #229dd1;
+}
+.unit-left,
+.unit-body
+{
+  display: inline-block;
+  text-align: left;
+  span
+  {
+    text-align: left;
+    a
+    {
+      color: #fff
+    }
+  }
+}
+.contact-info-list
+{
+  padding-left: 0px;
+  li
+  {
+    text-align: left;
+  }
+}
+.unit-body
+{
+  padding-left: 10px;
+}
+.rights
+{
+  color: #fff;
+}
+@include media-query(768px){
+  .unit-body
+  {
+    span
+    {
+      text-align: center;
+    }
+  }
+  .footer-nav
+  {
+    li
+    {
+      text-align: center;
+    }
+  }
+  .contact-info-list
+  {
+    text-align: center;
+    .unit
+    {
+      text-align: center;
+    }
+  }
+
+};
