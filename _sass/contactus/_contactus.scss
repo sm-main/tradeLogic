@@ -26,3 +26,20 @@
 {
   margin-top: 10px;
 }
+#common-contactus
+{
+  height: 700px;
+  background-image: url('../static/images/contactus.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: 60%;
+  background-size: cover;
+  // border-bottom: 7px solid $brand-color;
+  width: 100%;
+}
+.contact-us-divider
+{
+  background-color: #fff;
+  opacity: .7;
+}
