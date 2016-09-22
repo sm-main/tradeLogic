@@ -91,8 +91,13 @@
 
 .modal-dialog
 {
-  margin-top: 170px;
+  margin-top: 70px;
   width: 90%;
+  border-radius: 0px;
+  .modal-content
+  {
+    border-radius: 0px;
+  }
 }
 .strat-images
 {
@@ -106,4 +111,24 @@
 .modal-header-heading
 {
   display: inline-block;
+}
+.service-header-one,
+.service-header-two
+{
+  h2
+  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red;
+    color: #fff;
+    padding-left: 15px;
+  }
+}
+.modal-header
+{
+  background-color: red;
+  h2
+  {
+    color: #fff;
+  }
 }

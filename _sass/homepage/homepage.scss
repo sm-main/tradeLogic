@@ -10,6 +10,30 @@ a
 {
   border-radius: 0px;
 }
+
+
+.button2
+{
+	display: inline-block;
+	margin-top: 3px;
+}
+.button2.btn,.button2 .btn
+{
+	/*padding: 6px 12px 6px 12px;*/
+	border-radius: 0px;
+	text-transform: uppercase;
+	background-color: #199433!important;
+	color: #fff!important;
+	/*font-size: 11px;*/
+	letter-spacing: 2px;
+	font-weight: bold;
+      box-shadow: 0 7px 14px -6px #6b6b6b;
+}
+.button2.btn-default,.button2 .btn-default
+{
+	border-color: transparent!important;
+}
+
 // .dropdown:hover .dropdown-menu {
 //     transition: .33s all ease-out;
 //     display: block;
@@ -117,10 +141,10 @@ a
 {
   background-image: url('../static/images/slide_2.jpg');
 }
-// .home-slide-3
-// {
-//   background-image: url('../static/images/slide_3.jpeg');
-// }
+.home-slide-3
+{
+  background-image: url('../static/images/invesrtment_management.jpg');
+}
 .range
 {
   padding-top: 125px;
